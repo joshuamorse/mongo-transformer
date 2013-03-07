@@ -12,21 +12,21 @@
  * @author Joshua Morse <dashvibe@gmail.com>
  */
 
-namespace MongoTransformer;
+namespace Jmflava\MongoTransformer;
 
 class MongoTransformer
 {
 	/**
 	 * Represents a MongoCursor object.
-	 * 
+	 *
 	 * @var MongoCursor $cursor
 	 */
 	protected $cursor;
 
 	/**
-	 * Preps a MongoCursor object for conversion. 
-	 * 
-	 * @param \MongoCursor $cursor 
+	 * Preps a MongoCursor object for conversion.
+	 *
+	 * @param \MongoCursor $cursor
 	 * @access public
 	 * @return MongoTransformer $this
 	 */
@@ -44,8 +44,8 @@ class MongoTransformer
 
 	/**
 	 * Converts a MongoDB cursor to a JSONP object.
-	 * 
-	 * @param \MongoCursor $cursor 
+	 *
+	 * @param \MongoCursor $cursor
 	 * @access protected
 	 * @return string $toJsonp
 	 */
@@ -58,8 +58,8 @@ class MongoTransformer
 
 	/**
 	 * Converts a MongoDB cursor to a JSON object.
-	 * 
-	 * @param \MongoCursor $cursor 
+	 *
+	 * @param \MongoCursor $cursor
 	 * @access protected
 	 * @return string $toJson
 	 */
@@ -72,8 +72,8 @@ class MongoTransformer
 
 	/**
 	 * Converts a MongoDB cursor to an array.
-	 * 
-	 * @param \MongoCursor $cursor 
+	 *
+	 * @param \MongoCursor $cursor
 	 * @access protected
 	 * @return array $toArray
 	 */
@@ -95,7 +95,7 @@ class MongoTransformer
 
 	/**
 	 * Returns the set MongoCursor object.
-	 * 
+	 *
 	 * @access public
 	 * @return void
 	 */
@@ -106,8 +106,8 @@ class MongoTransformer
 
 	/**
 	 * Sets a MongoCursor object.
-	 * 
-	 * @param \MongoCursor $cursor 
+	 *
+	 * @param \MongoCursor $cursor
 	 * @access public
 	 */
 	public function setCursor(\MongoCursor $cursor)
